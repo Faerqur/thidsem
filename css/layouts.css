@@ -1,0 +1,106 @@
+/***** RESET BROWSER DEFAULTS ****/
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, fieldset, form, label, legend{
+margin:0;
+padding:0;
+border:0;
+}
+/**** render html5 elements as block in older browsers - add any more elements you use ****/
+header, footer, nav, section {
+display: block;
+}
+/**** Layouts ****/
+#wrapper{
+padding-top:10px;
+}
+body{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+header{
+padding:20px 10px;
+}
+nav{
+padding:10px;
+}
+#content{
+padding:20px;
+}
+footer{
+padding:10px;
+}
+.cleaner{clear:both;}
+/**** Fonts ****/
+header h1{
+font-size:1.8em;
+font-family:Georgia, "Times New Roman", Times, serif;
+letter-spacing:-1px;
+word-spacing:5px;
+}
+p{
+font-size:.9em;
+line-height:1.4em;
+margin-bottom:10px;
+}
+/**** Code ****/
+blockquote.code{
+margin:20px 10px 30px 10px;
+padding:10px;
+background-color:#FFFDF7;
+border:1px solid #bababa;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+}
+blockquote.code ul{
+width:90%;
+}
+blockquote.code li{
+font-family:"Courier New", Courier, mono;
+color:#136caa;
+margin:5px 0 10px 30px;
+font-size:.9em;
+line-height:1.4em;
+list-style-type:none;
+}
+blockquote.code h3{
+font-family:'copse', arial, serif;
+font-weight:normal;
+color:#6f7559;
+font-size:1.4em;
+margin-left:-5px;
+background:#ece8de;
+padding:4px;
+}
+blockquote.code h4{
+font-family:'copse', arial, serif;
+color:#6f7559;
+background:#ece8de;
+font-weight:normal;
+font-size:1em;
+margin-top:15px;
+}
+.selector{
+color:#e159e1;
+}
+.property{
+color:#298202;
+}
+.text{
+color:#353535;
+}
+.comment{
+color:#757575;
+}
+code{
+font-family:"Courier New", Courier, mono;
+color:#298202;
+font-size:1.1em;
+}
+#content a{
+color:#556850;
+padding:1px 2px;
+}
+#content a:hover{
+color:#685850;
+text-decoration:none;
+}
+

@@ -1,0 +1,184 @@
+﻿body {
+	background-color:#5d5d5d;
+}
+#wrapper {
+	width:90%; /*The content will fill 90% of the screen horizontally*/
+	max-width:1200px; /*the content won't be bigger than 1200px as having too wide a content makes it hard to read*/
+	margin:0 auto; /*positions the content in the centre of the page*/
+}
+header {
+	background-color:#b1bdb6;
+}
+#container {
+	background:#fff;
+	overflow: auto;
+	width: 100%
+}
+nav {
+	width:200px;
+	float:left;
+	background:#e7e4ce;
+	margin-right:-200px;
+	position:relative;
+	padding:0 !important; /*this is to cancel out padding in my main stylesheet*/
+}
+nav ul {
+	padding:60px 10px 10px 20px;
+}
+nav ul li {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:20px;
+	list-style-type:none;
+}
+section#content {
+	float:left;
+	border-left:200px solid #e7e4ce;
+	padding:20px;
+}
+footer {
+	background-color:#b1bdb6;
+	text-align: center;
+}
+
+#logo {
+	position: relative;
+	color:#edebda;
+	font-family: Aharoni;
+	font-size: 100px;
+	width: 3.4em;
+	height: 1em;
+	margin: 0 auto;
+}
+
+#logo h1{
+	font-family: Aharoni;
+	font-size: 100px;
+	position: absolute;
+}
+
+@keyframes thidsem_fade {
+	0%   {opacity: 1;}
+    12.5%  {opacity: 1;}
+    25%  {opacity: 1;}
+    37.5%  {opacity: 0;}
+    50% {opacity: 1;}
+    62.5%  {opacity: 1;}
+    75% {opacity: 1;}
+    87.5%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes pilsen_fade {
+	0%   {opacity: 0;}
+    12.5%  {opacity: 0;}
+    25%  {opacity: 1;}
+    37.5%  {opacity: 1;}
+    50% {opacity: 1;}
+    62.5%  {opacity: 0;}
+    75% {opacity: 0;}
+    87.5%  {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+@keyframes bdsm_fade {
+	0%   {opacity: 1;}
+    12.5%  {opacity: 0;}
+    25%  {opacity: 0;}
+    37.5%  {opacity: 0;}
+    50% {opacity: 0;}
+    62.5%  {opacity: 0;}
+    75% {opacity: 1;}
+    87.5%  {opacity: 1;}
+    100% {opacity: 1;}
+}
+
+
+#logo h1#pilsen {
+	animation-delay: 2s;
+	animation-name: pilsen_fade;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+#logo h1#bdsm {
+	animation-delay: 2s;
+	animation-name: bdsm_fade;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+#logo h1#thidsem {
+	/*top: inherit;*/
+	animation-delay: 2s;
+	animation-name: thidsem_fade;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+/* þidsem */
+#thidsem_th {
+	position: absolute;
+	left: 0px;
+}
+#thidsem_i {
+	position: absolute;
+	left: 0.617em;
+}
+#thidsem_d {
+	position: absolute;
+	left: 0.883em;
+}
+#thidsem_s {
+	position: absolute;
+	left: 1.5em;
+}
+#thidsem_e {
+	position: absolute;
+	left: 1.947em;
+}
+#thidsem_m {
+	position: absolute;
+	left: 2.515em;
+}
+/* pilsen */
+#pilsen_p {
+	position: absolute;
+	left: 0px;
+}
+#pilsen_i {
+	position: absolute;
+	left: 0.617em;
+}
+#pilsen_l {
+	position: absolute;
+	left: 1.234em;
+}
+#pilsen_s {
+	position: absolute;
+	left: 1.5em;
+}
+#pilsen_e {
+	position: absolute;
+	left: 1.947em;
+}
+#pilsen_n {
+	position: absolute;
+	left: 2.515em;
+}
+/* bdsm */
+#bdsm_b {
+	position: absolute;
+	left: 0px;
+}
+#bdsm_d {
+	position: absolute;
+	left: 0.883em;
+}
+#bdsm_s {
+	position: absolute;
+	left: 1.5em;
+}
+#bdsm_m {
+	position: absolute;
+	left: 2.515em;
+}
